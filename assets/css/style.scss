@@ -1,0 +1,62 @@
+---
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'dark' }}",
+  "minima/initialize";
+
+/** Body Override */
+  body {
+      font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif;
+      color: #dfdfdf;
+      background-color: #181818;
+      -webkit-text-size-adjust: 100%;
+      -webkit-font-feature-settings: "kern" 1;
+      -moz-font-feature-settings: "kern" 1;
+      -o-font-feature-settings: "kern" 1;
+      font-feature-settings: "kern" 1;
+      font-kerning: normal;
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      overflow-wrap: break-word;
+  }
+
+  /** Site-header Override */
+.site-header {
+    background-color: #0078d4;
+    border-top: 5px solid #999999;
+    border-bottom: 1px solid #404040;
+    min-height: 79.95px;
+    line-height: 80px;
+    position: relative;
+}
+
+/** Site-nav Override */
+.site-nav .page-link {
+    color: #dfdfdf;
+    line-height: 1.5;
+    display: block;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+/** Site-Title Override */
+.site-title {
+    font-size: 3.0rem;
+    font-weight: 400;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+}
+
+@media screen and (max-width: 600px) {
+    .site-title {
+        padding-right: 45px;
+    }
+}
+
+.site-title,
+.site-title:visited {
+    color: #dfdfdf;
+}
