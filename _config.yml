@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   My personal blog about cloud computing, Azure, DevOps, and the tools around them;  
   mostly intended as notes for my own reference, but since I have learned so much 
   over the years from similar little blogs, I thought I would share my experiences too!
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog - can be left blank for GitHub Pages
 url: "https://kingstonrk.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
@@ -41,6 +41,9 @@ remote_theme: jekyll/minima
 minima:
   skin: dark
   date_format: "%Y-%m-%d %H:%M"
+
+header_pages:
+  - about.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
