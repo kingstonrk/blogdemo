@@ -37,7 +37,7 @@ plugins:
 
 # set up remote_theme
 # theme: minima
-remote_theme: jekyll/minima
+remote_theme: kingstonrk/jekyll-minima@master
 minima:
   skin: dark
   date_format: "%Y-%m-%d %H:%M"
